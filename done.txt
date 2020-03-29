@@ -1,0 +1,6 @@
+x 2020-03-28 Support all path variants
+x 2020-03-28 Support group and path transforms
+x 2020-03-28 Px, pc, in to mm
+x 2020-03-28 Configurable DPI for px/pc to mm
+x 2020-03-28 Image coordinates mirrored in the y-axis because SVGs uses upper left corner as (0,0) while GCode uses lower left as (0,0) +bug
+x 2020-03-28 Close path command connects back to (0.0, 0.0) instead of the last move +bug

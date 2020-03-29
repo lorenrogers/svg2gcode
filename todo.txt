@@ -1,0 +1,7 @@
+(A) Use a config file to set machine options, instead of relying on hard-coded defaults
+(A) Add configuration to support z-axis machines
+(B) Configurable start/end sequence
+(B) Option to sort paths by distance to reduce G0 distances
+(B) Smooth curves should not use the control point when the previous curve is not of the same type (quadratic -> smooth cubic, cubic -> smooth quadratic) +bug
+(C) Biarc interpolation (G2/G3 instead of many G1)
+(C) Ellipse paths are dubious -- large_arc, sweep may need to be inverted +bug
